@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd
+		http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		">
+		
+	<context:component-scan base-package="com.esprit" />
+	<aop:aspectj-autoproxy ></aop:aspectj-autoproxy>
+	
+   <!-- Definition for textEditor bean using inner bean -->
+   <bean id="admin" class="com.esprit.entities.User">
+      <constructor-arg index="0" type="java.lang.String" value="adminpassword"></constructor-arg>
+   	  <constructor-arg index="1" type="java.lang.String" value="admin"></constructor-arg>
+       <property name="roles">
+       	<list>
+       		<ref bean="view"/>
+       		<ref bean="read"/>
+       	</list>
+       </property>
+       
+   </bean>
+   
+   <bean id="user" class="com.esprit.entities.User">
+   	  <constructor-arg index="0" type="java.lang.String" value="userpassword"></constructor-arg>
+   	  <constructor-arg index="1" type="java.lang.String" value="user"></constructor-arg>
+      
+       <property name="roles">
+       	<list>
+       		<ref bean="view"/>
+       	</list>
+       </property>
+       
+   </bean>
+   <!--  <bean id="logger" class="com.esprit.aspects.Logging" > </bean> -->
+   
+   <bean id="view" class="com.esprit.entities.Role">
+   	  <constructor-arg index="0" type="java.lang.String" value="view">
+   	  </constructor-arg>
+   	  <!-- 
+      <property name="label" value="view">
+         
+       </property>
+        -->
+   </bean>
+   <bean id="read" class="com.esprit.entities.Role">
+      <constructor-arg index="0" type="java.lang.String" value="read">
+   	  </constructor-arg>
+   </bean>
+   <bean id="springAuthentication" class="com.esprit.Providers.SpringAuthenticationProvider">
+      <constructor-arg>
+      	<list>
+      		<ref bean="admin"/>
+      		<ref bean="user"/>
+      	</list>
+   	  </constructor-arg>
+   </bean>
+	<!-- AuthenticatorAgent -->
+	<!-- With spring configuration in xml -->
+	
+	<bean id="AuthenticatorAgent" class="com.esprit.Services.AuthenticatorAgent" >
+		
+	   	   <property name="iprovider" ref="springAuthentication"></property> 
+	</bean>
+	
+	<!-- With mock configuration manually using annotations -->
+</beans>
