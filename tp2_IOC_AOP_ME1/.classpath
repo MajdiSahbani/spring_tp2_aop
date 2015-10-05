@@ -1,60 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/aspectj-3.0-beta-1-sources.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/aspectj-weaver.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/com.springsource.org.aopalliance_1.0.0.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/commons-logging.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/hibernate3.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/hibernate-testing.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/javassist-3.9.0.GA.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/javax.persistence.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/log4j.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/mysql-connector-java-5.0.4-bin.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.aop-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.aop-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.asm-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.asm-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.beans-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.beans-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.context.support-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.context.support-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.context-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.context-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.core-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.core-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.expression-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.expression-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.instrument-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.instrument-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.jdbc-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.jdbc-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.jms-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.jms-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.orm-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.orm-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.oxm-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.test-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.test-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.transaction-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/org.springframework.transaction-sources-3.0.1.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/slf4j-api-1.5.8.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/slf4j-log4j12-1.5.8.jar"/>
-	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/spring-aspects-3.1.0.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/nemesis/.m2/repository/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar">
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
 		<attributes>
+			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.springframework"/>
-			<attribute name="maven.artifactId" value="spring-context"/>
-			<attribute name="maven.version" value="4.1.7.RELEASE"/>
-			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/aspectj-3.0-beta-1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/com.springsource.org.aopalliance_1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/hibernate-testing.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.aop-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.aop-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.asm-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.asm-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.beans-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.beans-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.context.support-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.context.support-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.context-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.context-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.core-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.core-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.expression-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.expression-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.instrument-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.instrument-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.jdbc-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.jdbc-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.jms-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.jms-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.orm-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.orm-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.oxm-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.oxm-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.test-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.test-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.transaction-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/org.springframework.transaction-sources-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/JAR_IOC_JPA_AOP/lib/spring-aspects-3.1.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/5eme GL/zied/SPRING/Projets/GestionProjet_GL_JPA_IOC_2sean/GestionProjet_GL3/lib/aspectj-weaver.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

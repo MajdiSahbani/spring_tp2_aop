@@ -1,14 +1,9 @@
 package com.esprit.bootstap;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.esprit.IServices.Authenticator;
-import com.esprit.Providers.MockAuthenticationProvider;
-import com.esprit.Services.AuthenticatorAgent;
 import com.esprit.entities.User;
 
 
@@ -16,6 +11,7 @@ import com.esprit.entities.User;
 public class Main {
 
 	public static void main(String[] args) {
+		// test jenkins => OK
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		
 		User admin = (User) context.getBean("admin");

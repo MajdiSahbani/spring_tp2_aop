@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 import com.esprit.IProviders.AuthenticationProvider;
 import com.esprit.IServices.Authenticator;
-import com.esprit.Providers.GenericAuthenticationProvider;
 import com.esprit.entities.User;
 
 @Component("AuthenticatorAgent")
