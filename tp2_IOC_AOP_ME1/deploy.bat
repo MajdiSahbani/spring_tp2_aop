@@ -1,1 +1,1 @@
-mvn deploy
+mvn clean & mvn install & mvn deploy
