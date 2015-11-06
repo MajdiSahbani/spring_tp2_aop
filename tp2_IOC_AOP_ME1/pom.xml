@@ -54,14 +54,13 @@
   </dependencies>
   <distributionManagement>
 
-        
-		
 		<repository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>http://172.16.162.16:8081/nexus/content/repositories/snapshots/</url>
-        </repository>
-    </distributionManagement>
+			<id>nexus</id>
+			<name>nexus</name>
+			 <url>http://172.16.162.16:8081/nexus/content/repositories/snapshots/</url>
+		</repository>
+		</distributionManagement>
+		
     <properties>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	    <maven.compiler.source>1.8</maven.compiler.source>
