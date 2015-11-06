@@ -59,7 +59,7 @@
 		<repository>
             <id>nexus</id>
             <name>nexus</name>
-            <url>http://172.16.162.16:8081/nexus/content/groups/publi</url>
+            <url>http://172.16.162.16:8081/nexus/content/groups/public</url>
         </repository>
     </distributionManagement>
     <properties>
