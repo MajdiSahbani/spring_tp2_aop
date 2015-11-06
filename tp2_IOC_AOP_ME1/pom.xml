@@ -54,12 +54,13 @@
   </dependencies>
   <distributionManagement>
 
-        <repository>
+        
+		
+		<repository>
             <id>nexus</id>
             <name>nexus</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://172.16.162.16:8081/nexus/content/groups/publi</url>
         </repository>
-
     </distributionManagement>
     <properties>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
