@@ -21,6 +21,18 @@
         <version>2.3</version>
       </plugin>
       <plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>tomcat7-maven-plugin</artifactId>
+		<version>2.2</version>
+		<configuration>
+			<server>mytomcat</server>
+			<url>http://172.19.248.244:18080/manager</url>
+			<username>admin</username>
+			<password>adminpass</password>
+			
+		</configuration>
+	</plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
             <version>2.8</version>
