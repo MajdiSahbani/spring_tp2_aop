@@ -1,11 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+	<classpathentry excluding="main/webapp/|main/webapp/pages/|main/webapp/resources/bower_components/|main/webapp/resources/bower_components/bootstrap/|main/webapp/resources/bower_components/bootstrap/dist/css/|main/webapp/resources/bower_components/bootstrap/dist/fonts/|main/webapp/resources/bower_components/bootstrap/dist/js/|main/webapp/resources/bower_components/bootstrap/fonts/|main/webapp/resources/bower_components/bootstrap/grunt/|main/webapp/resources/bower_components/bootstrap/js/|main/webapp/resources/bower_components/bootstrap/less/|main/webapp/resources/bower_components/bootstrap/less/mixins/|main/webapp/resources/bower_components/datatables/|main/webapp/resources/bower_components/datatables/media/css/|main/webapp/resources/bower_components/datatables/media/images/|main/webapp/resources/bower_components/datatables/media/js/|main/webapp/resources/bower_components/flot/|main/webapp/resources/bower_components/flot/examples/|main/webapp/resources/bower_components/flot/examples/ajax/|main/webapp/resources/bower_components/flot/examples/annotating/|main/webapp/resources/bower_components/flot/examples/canvas/|main/webapp/resources/bower_components/flot/examples/categories/|main/webapp/resources/bower_components/flot/examples/image/|main/webapp/resources/bower_components/flot/examples/interacting/|main/webapp/resources/bower_components/flot/examples/navigate/|main/webapp/resources/bower_components/flot/examples/percentiles/|main/webapp/resources/bower_components/flot/examples/realtime/|main/webapp/resources/bower_components/flot/examples/resize/|main/webapp/resources/bower_components/flot/examples/selection/|main/webapp/resources/bower_components/flot/examples/shared/|main/webapp/resources/bower_components/flot/examples/stacking/|main/webapp/resources/bower_components/flot/examples/symbols/|main/webapp/resources/bower_components/flot/examples/threshold/|main/webapp/resources/bower_components/flot/examples/tracking/|main/webapp/resources/bower_components/flot/examples/visitors/|main/webapp/resources/bower_components/flot/examples/zooming/|main/webapp/resources/bower_components/holderjs/|main/webapp/resources/bower_components/holderjs/src/|main/webapp/resources/bower_components/holderjs/test/|main/webapp/resources/bower_components/jquery/|main/webapp/resources/bower_components/jquery/dist/|main/webapp/resources/bower_components/jquery/src/|main/webapp/resources/bower_components/jquery/src/ajax/|main/webapp/resources/bower_components/jquery/src/ajax/var/|main/webapp/resources/bower_components/jquery/src/attributes/|main/webapp/resources/bower_components/jquery/src/core/|main/webapp/resources/bower_components/jquery/src/core/var/|main/webapp/resources/bower_components/jquery/src/css/|main/webapp/resources/bower_components/jquery/src/css/var/|main/webapp/resources/bower_components/jquery/src/data/|main/webapp/resources/bower_components/jquery/src/data/var/|main/webapp/resources/bower_components/jquery/src/effects/|main/webapp/resources/bower_components/jquery/src/event/|main/webapp/resources/bower_components/jquery/src/exports/|main/webapp/resources/bower_components/jquery/src/manipulation/|main/webapp/resources/bower_components/jquery/src/manipulation/var/|main/webapp/resources/bower_components/jquery/src/queue/|main/webapp/resources/bower_components/jquery/src/sizzle/dist/|main/webapp/resources/bower_components/jquery/src/traversing/|main/webapp/resources/bower_components/jquery/src/traversing/var/|main/webapp/resources/bower_components/jquery/src/var/|main/webapp/resources/bower_components/metisMenu/|main/webapp/resources/bower_components/metisMenu/dist/|main/webapp/resources/bower_components/metisMenu/src/|main/webapp/resources/bower_components/mocha/|main/webapp/resources/bower_components/mocha/media/|main/webapp/resources/bower_components/morrisjs/|main/webapp/resources/bower_components/morrisjs/examples/|main/webapp/resources/bower_components/morrisjs/examples/lib/|main/webapp/resources/bower_components/morrisjs/less/|main/webapp/resources/bower_components/morrisjs/lib/|main/webapp/resources/bower_components/morrisjs/spec/|main/webapp/resources/bower_components/morrisjs/spec/lib/|main/webapp/resources/bower_components/morrisjs/spec/lib/area/|main/webapp/resources/bower_components/morrisjs/spec/lib/bar/|main/webapp/resources/bower_components/morrisjs/spec/lib/donut/|main/webapp/resources/bower_components/morrisjs/spec/lib/grid/|main/webapp/resources/bower_components/morrisjs/spec/lib/line/|main/webapp/resources/bower_components/morrisjs/spec/support/|main/webapp/resources/bower_components/morrisjs/spec/viz/|main/webapp/resources/bower_components/morrisjs/spec/viz/exemplary/|main/webapp/resources/bower_components/raphael/|main/webapp/resources/bower_components/raphael/dev/|main/webapp/resources/dist/css/|main/webapp/resources/dist/js/|main/webapp/resources/js/" including="**/*.java" kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry excluding="pages/|resources/bower_components/|resources/bower_components/bootstrap/|resources/bower_components/bootstrap/dist/css/|resources/bower_components/bootstrap/dist/fonts/|resources/bower_components/bootstrap/dist/js/|resources/bower_components/bootstrap/fonts/|resources/bower_components/bootstrap/grunt/|resources/bower_components/bootstrap/js/|resources/bower_components/bootstrap/less/|resources/bower_components/bootstrap/less/mixins/|resources/bower_components/datatables/|resources/bower_components/datatables/media/css/|resources/bower_components/datatables/media/images/|resources/bower_components/datatables/media/js/|resources/bower_components/flot/|resources/bower_components/flot/examples/|resources/bower_components/flot/examples/ajax/|resources/bower_components/flot/examples/annotating/|resources/bower_components/flot/examples/canvas/|resources/bower_components/flot/examples/categories/|resources/bower_components/flot/examples/image/|resources/bower_components/flot/examples/interacting/|resources/bower_components/flot/examples/navigate/|resources/bower_components/flot/examples/percentiles/|resources/bower_components/flot/examples/realtime/|resources/bower_components/flot/examples/resize/|resources/bower_components/flot/examples/selection/|resources/bower_components/flot/examples/shared/|resources/bower_components/flot/examples/stacking/|resources/bower_components/flot/examples/symbols/|resources/bower_components/flot/examples/threshold/|resources/bower_components/flot/examples/tracking/|resources/bower_components/flot/examples/visitors/|resources/bower_components/flot/examples/zooming/|resources/bower_components/holderjs/|resources/bower_components/holderjs/src/|resources/bower_components/holderjs/test/|resources/bower_components/jquery/|resources/bower_components/jquery/dist/|resources/bower_components/jquery/src/|resources/bower_components/jquery/src/ajax/|resources/bower_components/jquery/src/ajax/var/|resources/bower_components/jquery/src/attributes/|resources/bower_components/jquery/src/core/|resources/bower_components/jquery/src/core/var/|resources/bower_components/jquery/src/css/|resources/bower_components/jquery/src/css/var/|resources/bower_components/jquery/src/data/|resources/bower_components/jquery/src/data/var/|resources/bower_components/jquery/src/effects/|resources/bower_components/jquery/src/event/|resources/bower_components/jquery/src/exports/|resources/bower_components/jquery/src/manipulation/|resources/bower_components/jquery/src/manipulation/var/|resources/bower_components/jquery/src/queue/|resources/bower_components/jquery/src/sizzle/dist/|resources/bower_components/jquery/src/traversing/|resources/bower_components/jquery/src/traversing/var/|resources/bower_components/jquery/src/var/|resources/bower_components/metisMenu/|resources/bower_components/metisMenu/dist/|resources/bower_components/metisMenu/src/|resources/bower_components/mocha/|resources/bower_components/mocha/media/|resources/bower_components/morrisjs/|resources/bower_components/morrisjs/examples/|resources/bower_components/morrisjs/examples/lib/|resources/bower_components/morrisjs/less/|resources/bower_components/morrisjs/lib/|resources/bower_components/morrisjs/spec/|resources/bower_components/morrisjs/spec/lib/|resources/bower_components/morrisjs/spec/lib/area/|resources/bower_components/morrisjs/spec/lib/bar/|resources/bower_components/morrisjs/spec/lib/donut/|resources/bower_components/morrisjs/spec/lib/grid/|resources/bower_components/morrisjs/spec/lib/line/|resources/bower_components/morrisjs/spec/support/|resources/bower_components/morrisjs/spec/viz/|resources/bower_components/morrisjs/spec/viz/exemplary/|resources/bower_components/raphael/|resources/bower_components/raphael/dev/|resources/dist/css/|resources/dist/js/|resources/js/" kind="src" path="src/main/webapp"/>
+	<classpathentry kind="src" path="src/main/webapp/pages"/>
+	<classpathentry excluding="bootstrap/|datatables/|flot/|holderjs/|jquery/|metisMenu/|mocha/|morrisjs/|raphael/" kind="src" path="src/main/webapp/resources/bower_components"/>
+	<classpathentry excluding="dist/css/|dist/fonts/|dist/js/|fonts/|grunt/|js/|less/" kind="src" path="src/main/webapp/resources/bower_components/bootstrap"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/bootstrap/dist/css"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/bootstrap/dist/fonts"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/bootstrap/dist/js"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/bootstrap/fonts"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/bootstrap/grunt"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/bootstrap/js"/>
+	<classpathentry excluding="mixins/" kind="src" path="src/main/webapp/resources/bower_components/bootstrap/less"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/bootstrap/less/mixins"/>
+	<classpathentry excluding="media/css/|media/images/|media/js/" kind="src" path="src/main/webapp/resources/bower_components/datatables"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/datatables/media/css"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/datatables/media/images"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/datatables/media/js"/>
+	<classpathentry excluding="examples/" kind="src" path="src/main/webapp/resources/bower_components/flot"/>
+	<classpathentry excluding="ajax/|annotating/|canvas/|categories/|image/|interacting/|navigate/|percentiles/|realtime/|resize/|selection/|shared/|stacking/|symbols/|threshold/|tracking/|visitors/|zooming/" kind="src" path="src/main/webapp/resources/bower_components/flot/examples"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/ajax"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/annotating"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/canvas"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/categories"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/image"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/interacting"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/navigate"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/percentiles"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/realtime"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/resize"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/selection"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/shared"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/stacking"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/symbols"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/threshold"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/tracking"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/visitors"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/flot/examples/zooming"/>
+	<classpathentry excluding="src/|test/" kind="src" path="src/main/webapp/resources/bower_components/holderjs"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/holderjs/src"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/holderjs/test"/>
+	<classpathentry excluding="dist/|src/" kind="src" path="src/main/webapp/resources/bower_components/jquery"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/dist"/>
+	<classpathentry excluding="ajax/|attributes/|core/|css/|data/|effects/|event/|exports/|manipulation/|queue/|sizzle/dist/|traversing/|var/" kind="src" path="src/main/webapp/resources/bower_components/jquery/src"/>
+	<classpathentry excluding="var/" kind="src" path="src/main/webapp/resources/bower_components/jquery/src/ajax"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/ajax/var"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/attributes"/>
+	<classpathentry excluding="var/" kind="src" path="src/main/webapp/resources/bower_components/jquery/src/core"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/core/var"/>
+	<classpathentry excluding="var/" kind="src" path="src/main/webapp/resources/bower_components/jquery/src/css"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/css/var"/>
+	<classpathentry excluding="var/" kind="src" path="src/main/webapp/resources/bower_components/jquery/src/data"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/data/var"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/effects"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/event"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/exports"/>
+	<classpathentry excluding="var/" kind="src" path="src/main/webapp/resources/bower_components/jquery/src/manipulation"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/manipulation/var"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/queue"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/sizzle/dist"/>
+	<classpathentry excluding="var/" kind="src" path="src/main/webapp/resources/bower_components/jquery/src/traversing"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/traversing/var"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/jquery/src/var"/>
+	<classpathentry excluding="dist/|src/" kind="src" path="src/main/webapp/resources/bower_components/metisMenu"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/metisMenu/dist"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/metisMenu/src"/>
+	<classpathentry excluding="media/" kind="src" path="src/main/webapp/resources/bower_components/mocha"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/mocha/media"/>
+	<classpathentry excluding="examples/|less/|lib/|spec/" kind="src" path="src/main/webapp/resources/bower_components/morrisjs"/>
+	<classpathentry excluding="lib/" kind="src" path="src/main/webapp/resources/bower_components/morrisjs/examples"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/examples/lib"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/less"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/lib"/>
+	<classpathentry excluding="lib/|support/|viz/" kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec"/>
+	<classpathentry excluding="area/|bar/|donut/|grid/|line/" kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/lib"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/lib/area"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/lib/bar"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/lib/donut"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/lib/grid"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/lib/line"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/support"/>
+	<classpathentry excluding="exemplary/" kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/viz"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/morrisjs/spec/viz/exemplary"/>
+	<classpathentry excluding="dev/" kind="src" path="src/main/webapp/resources/bower_components/raphael"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/bower_components/raphael/dev"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/dist/css"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/dist/js"/>
+	<classpathentry kind="src" path="src/main/webapp/resources/js"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
