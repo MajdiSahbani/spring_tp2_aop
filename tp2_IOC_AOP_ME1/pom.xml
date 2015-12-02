@@ -3,6 +3,7 @@
   <groupId>tp2_IOC_AOP_ME1</groupId>
   <artifactId>tp2_IOC_AOP_ME1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
